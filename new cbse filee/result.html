@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Result</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Provisional Result</h2>
+
+<div class="result-box">
+
+  <div class="left">
+    <p>Name: <span id="name"></span></p>
+    <p>Father: <span id="father"></span></p>
+    <p>Roll: <span id="rollno"></span></p>
+    <p>DOB: <span id="dob"></span></p>
+    <p>School Type: <span id="type"></span></p>
+  </div>
+
+  <img id="photo" class="photo">
+
+  <table>
+    <tr><th>Subject</th><th>Marks</th></tr>
+    <tr><td>Maths</td><td id="maths"></td></tr>
+    <tr><td>English</td><td id="english"></td></tr>
+    <tr><td>Science</td><td id="science"></td></tr>
+    <tr><td>SST</td><td id="sst"></td></tr>
+    <tr><td>Hindi</td><td id="hindi"></td></tr>
+  </table>
+
+  <h3 id="percentage"></h3>
+  <h2 id="status"></h2>
+
+  <button onclick="window.print()">Download PDF</button>
+
+  <img src="images/sign.png" class="sign">
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

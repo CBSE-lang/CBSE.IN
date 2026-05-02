@@ -1,0 +1,16 @@
+let students = JSON.parse(localStorage.getItem("students")) || [
+  {
+    name: "Rahul Kumar",
+    father: "Mohan Kumar",
+    roll: "12345",
+    dob: "2005-05-10",
+    type: "Regular",
+    marks: {
+      maths: 80,
+      english: 75,
+      science: 70,
+      sst: 85,
+      hindi: 78
+    }
+  }
+];

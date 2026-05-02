@@ -1,0 +1,54 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #f2f2f2;
+}
+
+h1 {
+  background: navy;
+  color: white;
+  padding: 10px;
+}
+
+.box {
+  background: white;
+  padding: 20px;
+  margin: 50px auto;
+  width: 300px;
+  border-radius: 10px;
+}
+
+input, select {
+  margin: 10px;
+  padding: 10px;
+  width: 90%;
+}
+
+button {
+  padding: 10px;
+  background: blue;
+  color: white;
+  border: none;
+}
+
+.result-box {
+  background: white;
+  padding: 20px;
+  width: 600px;
+  margin: auto;
+}
+
+.photo {
+  width: 100px;
+  float: right;
+}
+
+.sign {
+  width: 150px;
+  margin-top: 30px;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+}
